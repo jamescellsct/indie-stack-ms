@@ -15,9 +15,11 @@ export default function Index() {
                   <div>
                     <div>
                       <p>Please click on the links below to download the case studies.</p>
+                      <br />
                       <p>
                         <strong>Case Studies:</strong>
                       </p>
+                      <br />
                       <p>
                         <a
                           href="https://mediswiss.us/assets/pcs/15-06-21_Patient_file_Ano.pdf"
@@ -46,12 +48,14 @@ export default function Index() {
                         </a>
                       </p>
                     </div>
+                    {/*
                     <Link
                       to="/notes"
                       className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
                     >
                       View Notes for {user.email}
-                    </Link>
+                    </Link>*/}
+
                   </div>
 
                 ) : (
