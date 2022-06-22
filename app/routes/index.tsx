@@ -8,12 +8,9 @@ export default function Index() {
       <div className="relative sm:pb-16 sm:pt-8">
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-            <div className="absolute inset-0">
-              <img src="http://www.mediswiss.us/assets/images/header.png" alt="mediswiss" />
-              <div className="absolute inset-0 bg-[color:rgba(254,204,27,0.5)] mix-blend-multiply" />
-            </div>
             <div className="lg:pb-18 relative px-4 pt-16 pb-8 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pt-32">
               <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+                <img src="http://www.mediswiss.us/assets/images/header.png" alt="mediswiss" />
                 {user ? (
                   <div>
                     <div>
