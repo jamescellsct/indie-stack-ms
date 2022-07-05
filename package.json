@@ -34,6 +34,8 @@
     "/public/build"
   ],
   "dependencies": {
+    "@headlessui/react": "^1.6.5",
+    "@heroicons/react": "^1.0.6",
     "@node-rs/bcrypt": "^1.6.0",
     "@prisma/client": "^3.11.0",
     "@reach/alert": "^0.16.0",
