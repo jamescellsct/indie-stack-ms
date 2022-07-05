@@ -1,10 +1,11 @@
-import { Link } from "remix";
+import { Link } from "@remix-run/react";
+
 import { useOptionalUser } from "~/utils";
 import HeroLanding from "../components/Heros/HeroLanding";
 import FooterMain from "../components/Footers/FooterMain";
 import HeadingBg from "~/components/Heros/heading-01.png";
 
-export default function Index() {
+export default function CsOne() {
   const user = useOptionalUser();
   return (
     <div>
