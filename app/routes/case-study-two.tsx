@@ -5,8 +5,6 @@ import { useOptionalUser } from "~/utils";
 import HeroLanding from "../components/Heros/HeroLanding";
 import FooterMain from "../components/Footers/FooterMain";
 import HeadingBg from "~/components/Heros/heading-01.png";
-import CsTwoImg from "../../assets/case-studies/cs-two-01.png";
-import CsOne02Img from "../../assets/case-studies/cs-one-02.png";
 import CsTwoWoundImg01 from "../../assets/case-studies/cs-two-wound-01.png";
 import CsTwoWoundImg02 from "../../assets/case-studies/cs-two-wound-02.png";
 import CsTwoWoundImg03 from "../../assets/case-studies/cs-two-wound-03.png";
@@ -92,7 +90,9 @@ export default function Index() {
                                 Diagnosis:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Type 2 diabetes mellitus, diabetic foot syndrome neuroischemic form, foot abscess, osteomyelitis of the foot bones. Sepsis
+                                Type 2 diabetes mellitus, diabetic foot syndrome
+                                neuroischemic form, foot abscess, osteomyelitis
+                                of the foot bones. Sepsis
                               </div>
                             </div>
 
@@ -101,7 +101,8 @@ export default function Index() {
                                 Case relevant history
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Chronic iron deficiency anemia caused by foot phlegmon.
+                                Chronic iron deficiency anemia caused by foot
+                                phlegmon.
                               </div>
                             </div>
 
@@ -112,14 +113,27 @@ export default function Index() {
                                 therapeutic measures:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Cefoperazone/sulbactam 2.0 i.m. 2 times/day<br />
-                                Tienam 1000 mg+ Normal saline 200 ml i.v. 3 times/day Amikacin 500 mg i.m. 2 times/day <br />
-                                Ciprofloxacin 500 mg tab. 2 time/day<br />
-                                Sufer 200 mg. i.v. times/day<br />
-                                Fraxiparine (Nadroparin calcium) (0.3ml) subcut. 1 time/day Warfarin 2.5 mg 1 tab. 1 time/day<br />
-                                Nalbuphin 1 ml i.m. at pains<br />
-                                Ketalgin (Ketorolac tromethamine) 1 ml i.m. at pains Tardyferon 1 tab. 2 time/day<br />
-                                Nvorapid Subcut 6 ut. Morning 6 ut. launch 6 ut. evening Nvomix subcut 16ut. Morning 12ut. evening<br />
+                                Cefoperazone/sulbactam 2.0 i.m. 2 times/day
+                                <br />
+                                Tienam 1000 mg+ Normal saline 200 ml i.v. 3
+                                times/day Amikacin 500 mg i.m. 2 times/day{" "}
+                                <br />
+                                Ciprofloxacin 500 mg tab. 2 time/day
+                                <br />
+                                Sufer 200 mg. i.v. times/day
+                                <br />
+                                Fraxiparine (Nadroparin calcium) (0.3ml) subcut.
+                                1 time/day Warfarin 2.5 mg 1 tab. 1 time/day
+                                <br />
+                                Nalbuphin 1 ml i.m. at pains
+                                <br />
+                                Ketalgin (Ketorolac tromethamine) 1 ml i.m. at
+                                pains Tardyferon 1 tab. 2 time/day
+                                <br />
+                                Nvorapid Subcut 6 ut. Morning 6 ut. launch 6 ut.
+                                evening Nvomix subcut 16ut. Morning 12ut.
+                                evening
+                                <br />
                               </div>
                             </div>
 
@@ -242,7 +256,8 @@ export default function Index() {
                                 Therapy schedule:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Pathelen® wound care treatment – 2 times/day up to 2015-01-15
+                                Pathelen® wound care treatment – 2 times/day up
+                                to 2015-01-15
                               </div>
                             </div>
 
@@ -251,7 +266,8 @@ export default function Index() {
                                 Additional measures:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Mechanical debridement – removal of necrotic tissues
+                                Mechanical debridement – removal of necrotic
+                                tissues
                               </div>
                             </div>
 
@@ -261,15 +277,26 @@ export default function Index() {
 
                             <div className="mt-[36px] flex flex-row">
                               <p>
-                                Narrative: Complaints on the pain in the foot, pus from the wound, increasing fever up to 39.5 °C Hemoglobin: Hgb-80 g/l, Erythrocytes: Er-2.6×1012/L White blood cells (WBCs): leukocytes – 20.3×109/L. Leukocytes Formula: banded neutrophils – 17%, segmented neutrophils – 67%, lymphocytes– 16%.
+                                Narrative: Complaints on the pain in the foot,
+                                pus from the wound, increasing fever up to 39.5
+                                °C Hemoglobin: Hgb-80 g/l, Erythrocytes:
+                                Er-2.6×1012/L White blood cells (WBCs):
+                                leukocytes – 20.3×109/L. Leukocytes Formula:
+                                banded neutrophils – 17%, segmented neutrophils
+                                – 67%, lymphocytes– 16%.
                                 <br />
                                 <br />
-                                X-ray: osteomyelitis 2,3,4 metatarsal bones of the foot with destruction and seizures.
-                                <br /><br />
-                                2014-12-11 – Surgery: opening of phlegmon foot, amputation 2,3,4th toes with resection of the metatarsal bones.
-
-                              <br /><br />
-                                E. faecalis, 107 CFU/g, sensitive to Tygacil, Cefoperazone,Tienam
+                                X-ray: osteomyelitis 2,3,4 metatarsal bones of
+                                the foot with destruction and seizures.
+                                <br />
+                                <br />
+                                2014-12-11 – Surgery: opening of phlegmon foot,
+                                amputation 2,3,4th toes with resection of the
+                                metatarsal bones.
+                                <br />
+                                <br />
+                                E. faecalis, 107 CFU/g, sensitive to Tygacil,
+                                Cefoperazone,Tienam
                               </p>
                             </div>
 
@@ -287,8 +314,13 @@ export default function Index() {
                                 Brief treatment summary:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                2014-12-17: the wound is completely clean without necrosis, and start of active granulation in the wound.<br />
-                                2015-01-15: wound is granulated and epithelialized. The wound has reduced in size. Some areas are completely healed.
+                                2014-12-17: the wound is completely clean
+                                without necrosis, and start of active
+                                granulation in the wound.
+                                <br />
+                                2015-01-15: wound is granulated and
+                                epithelialized. The wound has reduced in size.
+                                Some areas are completely healed.
                               </div>
                             </div>
 
@@ -303,8 +335,10 @@ export default function Index() {
                                 Condition:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Complaints on the pain in the foot, pus from the wound, increasing fever up to 39.5 °C Ps – 110/min. AP –
-                                140/90 mm Hg. The disease began 12 days ago.
+                                Complaints on the pain in the foot, pus from the
+                                wound, increasing fever up to 39.5 °C Ps –
+                                110/min. AP – 140/90 mm Hg. The disease began 12
+                                days ago.
                               </div>
                             </div>
 
@@ -313,8 +347,15 @@ export default function Index() {
                                 Status localis:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Foot is edematous, hyperemic, on the plantar surface of the foot observed two wounds with oozing pus with stinking smell. Size 3 x3 cm., 1,5 x 2 cm..<br /><br />
-                                On the dorsum of the foot, there are two wounds sized 3 x 1,5 cm., 6 x 6 cm. with necrotic tissues.
+                                Foot is edematous, hyperemic, on the plantar
+                                surface of the foot observed two wounds with
+                                oozing pus with stinking smell. Size 3 x3 cm.,
+                                1,5 x 2 cm..
+                                <br />
+                                <br />
+                                On the dorsum of the foot, there are two wounds
+                                sized 3 x 1,5 cm., 6 x 6 cm. with necrotic
+                                tissues.
                               </div>
                             </div>
 
@@ -323,7 +364,11 @@ export default function Index() {
                                 Blood tests:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                (RBC) Hemoglobin: Hgb-80 g/l, Erythrocytes: Er-2.6×1012/L White blood cells (WBCs): leukocytes – 20.3×109/L. Leukocytes Formula: banded neutrophils – 17%, segmented neutrophils – 67%, lymphocytes– 16%.
+                                (RBC) Hemoglobin: Hgb-80 g/l, Erythrocytes:
+                                Er-2.6×1012/L White blood cells (WBCs):
+                                leukocytes – 20.3×109/L. Leukocytes Formula:
+                                banded neutrophils – 17%, segmented neutrophils
+                                – 67%, lymphocytes– 16%.
                               </div>
                             </div>
 
@@ -332,8 +377,16 @@ export default function Index() {
                                 X-ray:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                osteomyelitis 2,3,4 metatarsal bones of the foot with the destruction and seizures.<br /><br />
-                                Fever up to 39.5 °C, leukocytosis – 20.3×109/L, hemoglobin: Hb-80 g/l, and frequency of pulse – 110/min showed that the patient had Systemic Inflammatory Response Syndrome (SIRS). Based on presence of purulent inflammation and SIRS, the Patient was diagnosed – Sepsis.
+                                osteomyelitis 2,3,4 metatarsal bones of the foot
+                                with the destruction and seizures.
+                                <br />
+                                <br />
+                                Fever up to 39.5 °C, leukocytosis – 20.3×109/L,
+                                hemoglobin: Hb-80 g/l, and frequency of pulse –
+                                110/min showed that the patient had Systemic
+                                Inflammatory Response Syndrome (SIRS). Based on
+                                presence of purulent inflammation and SIRS, the
+                                Patient was diagnosed – Sepsis.
                               </div>
                             </div>
 
@@ -342,7 +395,18 @@ export default function Index() {
                                 Surgery:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                On the day 1 was made surgery - opening of phlegmon and amputation of 2,3,4th toes with resection of the metatarsal bones. After opening of the wound 200 ml of pus was removed. Resection of the bone was made to remove bone cavity and necrotic tissues. Affected tendons were cut. Wound seeding content was taken for bacteriological examination. Wound was washed out with a solution of 10% Betadine and 3% hydrogen peroxide. Wound was worked out by Pathelen® 3-5 mm layer and covered with aseptic bandage.
+                                On the day 1 was made surgery - opening of
+                                phlegmon and amputation of 2,3,4th toes with
+                                resection of the metatarsal bones. After opening
+                                of the wound 200 ml of pus was removed.
+                                Resection of the bone was made to remove bone
+                                cavity and necrotic tissues. Affected tendons
+                                were cut. Wound seeding content was taken for
+                                bacteriological examination. Wound was washed
+                                out with a solution of 10% Betadine and 3%
+                                hydrogen peroxide. Wound was worked out by
+                                Pathelen® 3-5 mm layer and covered with aseptic
+                                bandage.
                               </div>
                             </div>
 
@@ -411,7 +475,8 @@ export default function Index() {
                                             Day 1
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The chronic wound.</p>
+                                            The chronic wound.
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -424,8 +489,10 @@ export default function Index() {
                                             Surgery
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Wound was worked out by Pathelen® 3-5 mm layer and
-                                            covered with aseptic bandage.</p>
+                                            Wound was worked out by Pathelen®
+                                            3-5 mm layer and covered with
+                                            aseptic bandage.
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
@@ -449,8 +516,10 @@ export default function Index() {
                                             Surgery
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Wound was worked out by Pathelen® 3-5 mm layer and
-                                            covered with aseptic bandage.</p>
+                                            Wound was worked out by Pathelen®
+                                            3-5 mm layer and covered with
+                                            aseptic bandage.
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -463,7 +532,8 @@ export default function Index() {
                                             Dynamics of wound process
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Day 2 of the PWCT</p>
+                                            Day 2 of the PWCT
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -476,7 +546,8 @@ export default function Index() {
                                             Dynamics of wound process
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Day 2 of the PWCT</p>
+                                            Day 2 of the PWCT
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
@@ -497,10 +568,18 @@ export default function Index() {
                                         />
                                         <div className="mt-10">
                                           <h4 className="text-xl font-medium text-slate-headline">
-                                            Next day after surgery - first bandaging
+                                            Next day after surgery - first
+                                            bandaging
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Swelling in the foot has decreased. Inside the wound still small quantity of necrotic tissues. Infected wound fully reveals the anatomical structure of the foot where can be seen exposed tendons and bones.</p>
+                                            Swelling in the foot has decreased.
+                                            Inside the wound still small
+                                            quantity of necrotic tissues.
+                                            Infected wound fully reveals the
+                                            anatomical structure of the foot
+                                            where can be seen exposed tendons
+                                            and bones.
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -513,7 +592,8 @@ export default function Index() {
                                             Day 7 of the PWCT
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Actively epithelialized wound.</p>
+                                            Actively epithelialized wound.
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -526,7 +606,12 @@ export default function Index() {
                                             Day 7 of the PWCT
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is completely clean without necrosis. Active granulation in the wound has started. (7 days after surgery). Open wound is partially closed.</p>
+                                            The wound is completely clean
+                                            without necrosis. Active granulation
+                                            in the wound has started. (7 days
+                                            after surgery). Open wound is
+                                            partially closed.
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
@@ -550,7 +635,11 @@ export default function Index() {
                                             Day 7 of the PWCT
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is completely clean without necrosis. Active granulation in the wound has started. (7 days after surgery). Open wound is partially closed.
+                                            The wound is completely clean
+                                            without necrosis. Active granulation
+                                            in the wound has started. (7 days
+                                            after surgery). Open wound is
+                                            partially closed.
                                           </p>
                                         </div>
                                       </div>
@@ -564,17 +653,21 @@ export default function Index() {
                                             Day 36 of the PWCT
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Wound is granulated and epithelialized. Wound has reduced in size, some areas are completely healed (36 days after surgery).All anatomical regions of the foot are covered with granulation tissues, wound edges are clean and closed.</p>
+                                            Wound is granulated and
+                                            epithelialized. Wound has reduced in
+                                            size, some areas are completely
+                                            healed (36 days after surgery).All
+                                            anatomical regions of the foot are
+                                            covered with granulation tissues,
+                                            wound edges are clean and closed.
+                                          </p>
                                         </div>
                                       </div>
-
                                     </div>
                                   </div>
                                 </div>
                               </section>
                             </div>
-
-
                           </Tab.Panel>
                         </Tab.Panels>
                       </Tab.Group>

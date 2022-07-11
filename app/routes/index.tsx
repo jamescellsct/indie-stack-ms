@@ -66,15 +66,16 @@ export default function CsOne() {
                                 </Link>
                               </div>
                             </div>
-                            {/*
-                            <div className="md:min-w-[362px] mb-12">
-                              <div className="rounded-3xl bg-white py-9 px-[30px] min-h-[400px]">
+                            <div className="mb-12 md:min-w-[362px]">
+                              <div className="min-h-[400px] rounded-3xl bg-white py-9 px-[30px]">
                                 <h4 className="mt-4 text-xl font-medium">
                                   <strong>Patient File:</strong> Nek. Olena O.
                                 </h4>
-                                <p className="mt-4 text-desktop-paragraph h-[200px]">
-                                  <strong>Diagnosis:</strong> Type 2 diabetes mellitus, diabetic foot syndrome neuroischemic form, abscess of
-                                  the left tibia, abscess of the left leg.
+                                <p className="mt-4 h-[200px] text-desktop-paragraph">
+                                  <strong>Diagnosis:</strong> Type 2 diabetes
+                                  mellitus, diabetic foot syndrome neuroischemic
+                                  form, abscess of the left tibia, abscess of
+                                  the left leg.
                                 </p>
                                 <Link
                                   to="/case-study-three"
@@ -84,7 +85,6 @@ export default function CsOne() {
                                 </Link>
                               </div>
                             </div>
-*/}
                           </div>
                         </div>
                       </section>

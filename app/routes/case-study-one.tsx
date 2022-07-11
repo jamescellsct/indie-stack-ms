@@ -397,7 +397,10 @@ export default function Index() {
                               <section className="bg-slate-light py-12 px-6 font-dm-sans md:py-[90px] md:px-0">
                                 <div className="m-auto max-w-default">
                                   <div className="m-auto max-w-[558px]">
-                                    <img src={CsOneImg} alt="Pathelen Case Study" />
+                                    <img
+                                      src={CsOneImg}
+                                      alt="Pathelen Case Study"
+                                    />
                                     <h2>Treatment Course:</h2>
                                   </div>
                                   <div className="mx-3 mt-[60px] md:mx-auto">
@@ -426,7 +429,10 @@ export default function Index() {
                                             Day 2
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Next day after the debridement and start of treatment by Pathelen®. Pain in the wound decreased without anesthetic drugs.
+                                            Next day after the debridement and
+                                            start of treatment by Pathelen®.
+                                            Pain in the wound decreased without
+                                            anesthetic drugs.
                                           </p>
                                         </div>
                                       </div>
@@ -440,7 +446,10 @@ export default function Index() {
                                             Day 5
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is clean without necrosis, slight swelling is presented on the wound edges. Pain has completely disappeared.
+                                            The wound is clean without necrosis,
+                                            slight swelling is presented on the
+                                            wound edges. Pain has completely
+                                            disappeared.
                                           </p>
                                         </div>
                                       </div>
@@ -465,9 +474,11 @@ export default function Index() {
                                             Day 13
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is clean, swelling on the skin around the wound is
-                                            absent. The wound has reduced in size.
-                                            Active granulation and partial epithelialization of the wound.
+                                            The wound is clean, swelling on the
+                                            skin around the wound is absent. The
+                                            wound has reduced in size. Active
+                                            granulation and partial
+                                            epithelialization of the wound.
                                             (Wound 2).
                                           </p>
                                         </div>
@@ -482,7 +493,8 @@ export default function Index() {
                                             Day 20
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Actively epithelialized wound.</p>
+                                            Actively epithelialized wound.
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -495,7 +507,11 @@ export default function Index() {
                                             Day 28
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is clean, active epithelialization of the wound. Wound has significantly reduced in size. (Wound 3)</p>
+                                            The wound is clean, active
+                                            epithelialization of the wound.
+                                            Wound has significantly reduced in
+                                            size. (Wound 3)
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
@@ -507,7 +523,10 @@ export default function Index() {
                             <div className="mt-[36px] flex flex-row">
                               <section className="bg-slate-light py-12 px-6 font-dm-sans md:py-[90px] md:px-0">
                                 <div className="m-auto max-w-default">
-                                    <img src={CsOne02Img} alt="Pathelen Case Study" />
+                                  <img
+                                    src={CsOne02Img}
+                                    alt="Pathelen Case Study"
+                                  />
                                 </div>
                               </section>
                             </div>
@@ -515,12 +534,13 @@ export default function Index() {
                             <div className="mt-[36px] flex flex-row">
                               <section className="bg-slate-light py-12 px-6 font-dm-sans md:py-[90px] md:px-0">
                                 <div className="m-auto max-w-default">
-                                  <img src={CsOne02Img} alt="Pathelen Case Study" />
+                                  <img
+                                    src={CsOne02Img}
+                                    alt="Pathelen Case Study"
+                                  />
                                 </div>
                               </section>
                             </div>
-
-
                           </Tab.Panel>
                         </Tab.Panels>
                       </Tab.Group>

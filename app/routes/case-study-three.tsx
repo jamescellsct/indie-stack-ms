@@ -5,14 +5,15 @@ import { useOptionalUser } from "~/utils";
 import HeroLanding from "../components/Heros/HeroLanding";
 import FooterMain from "../components/Footers/FooterMain";
 import HeadingBg from "~/components/Heros/heading-01.png";
-import CsOneImg from "../../assets/case-studies/cs-one-01.png";
-import CsOne02Img from "../../assets/case-studies/cs-one-02.png";
-import CsOneWoundImg01 from "../../assets/case-studies/cs-one-wound-01.png";
-import CsOneWoundImg02 from "../../assets/case-studies/cs-one-wound-02.png";
-import CsOneWoundImg03 from "../../assets/case-studies/cs-one-wound-03.png";
-import CsOneWoundImg04 from "../../assets/case-studies/cs-one-wound-04.png";
-import CsOneWoundImg05 from "../../assets/case-studies/cs-one-wound-05.png";
-import CsOneWoundImg06 from "../../assets/case-studies/cs-one-wound-06.png";
+import CsOneWoundImg01 from "../../assets/case-studies/cs-three-wound-01.png";
+import CsOneWoundImg02 from "../../assets/case-studies/cs-three-wound-02.png";
+import CsOneWoundImg03 from "../../assets/case-studies/cs-three-wound-03.png";
+import CsOneWoundImg04 from "../../assets/case-studies/cs-three-wound-04.png";
+import CsOneWoundImg05 from "../../assets/case-studies/cs-three-wound-05.png";
+import CsOneWoundImg06 from "../../assets/case-studies/cs-three-wound-06.png";
+import CsOneWoundImg07 from "../../assets/case-studies/cs-three-wound-07.png";
+import CsOneWoundImg08 from "../../assets/case-studies/cs-three-wound-08.png";
+import CsOneWoundImg09 from "../../assets/case-studies/cs-three-wound-09.png";
 import { Tab } from "@headlessui/react";
 
 export default function Index() {
@@ -48,7 +49,7 @@ export default function Index() {
                             </h5>
                             <div className="mt-[18px]">
                               <h2 className="text-mobile-h2 font-medium text-slate-headline lg:text-desktop-h2">
-                                Patient File: Ano. Nykolay A.
+                                Patient File: Nek. Olena O.
                               </h2>
                             </div>
                             <div className="mt-[18px] mb-[20px]">
@@ -60,7 +61,7 @@ export default function Index() {
                                 Name (Initials):
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Ano. Nykolay A.
+                                Nek. Olena O.
                               </div>
                             </div>
 
@@ -69,7 +70,7 @@ export default function Index() {
                                 Birthdate / Age:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                1955-02-14/ 59 y.o.
+                                1953-06-21 / 62 y.o.
                               </div>
                             </div>
 
@@ -87,17 +88,9 @@ export default function Index() {
                                 Diagnosis:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Chronic infected wound to the left lower leg
-                              </div>
-                            </div>
-
-                            <div className="mt-[36px] flex flex-row">
-                              <div className="flex w-[210px] text-left font-medium">
-                                Case relevant history
-                              </div>
-                              <div className="flex w-[100%] text-left">
-                                Chronic venous disorders. Type 2 diabetes
-                                mellitus.
+                                Type 2 diabetes mellitus, diabetic foot syndrome
+                                neuroischemic form, abscess of the left tibia,
+                                abscess of the left leg.
                               </div>
                             </div>
 
@@ -108,11 +101,20 @@ export default function Index() {
                                 therapeutic measures:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Detralex 1 tab. 2 time/day
+                                Amikacin 500 mg i.m. 2 times/day
                                 <br />
-                                Amaril 4 mg. tab. 1 time/day
+                                Ciprofloxacin1000 mg i.v. 3 times/day
                                 <br />
-                                Glucophage XR 500 mg tab. 1 time/day
+                                Fraxiparine (Nadroparin calcium) (0.3ml) subcut.
+                                1 time/day
+                                <br />
+                                Warfarin 2.5 mg 1 tab. 1 time/day Nalbuphin 1 ml
+                                i.m. at pains Ketalgin 1 ml i.m. at pains
+                                Reosorbylact 200 ml i in/v 1t/d Nvorapid
+                                <br />
+                                Subcut 6 ut. Morning 6 ut. launch 6 ut. evening
+                                Nvomix subcut16ut. Morning 12ut. evening
+                                <br />
                               </div>
                             </div>
 
@@ -121,7 +123,7 @@ export default function Index() {
                                 Patient informed:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                By Dr. Prystupiuk M.O. on 2014-12-25
+                                By Dr. Prystupiuk M.O. on 2015-04-23
                               </div>
                             </div>
 
@@ -130,7 +132,7 @@ export default function Index() {
                                 Data protection info:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                By Dr. Prystupiuk M.O. on 2014-12-25
+                                By Dr. Prystupiuk M.O. on 2015-04-23
                               </div>
                             </div>
 
@@ -139,9 +141,9 @@ export default function Index() {
                                 Agreed by:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Patient - 2014-12-25
+                                Patient - 2015-04-23
                                 <br />
-                                physician - 2014-12-25
+                                physician - 2015-04-23
                               </div>
                             </div>
 
@@ -195,7 +197,7 @@ export default function Index() {
                             </h5>
                             <div className="mt-[18px]">
                               <h2 className="text-mobile-h2 font-medium text-slate-headline lg:text-desktop-h2">
-                                Patient File: Ano. Nykolay A.
+                                Patient File: Nek. Olena O.
                               </h2>
                             </div>
 
@@ -208,7 +210,7 @@ export default function Index() {
                                 Start date:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                2014-12-25
+                                2015-04-23
                               </div>
                             </div>
 
@@ -217,7 +219,7 @@ export default function Index() {
                                 Expiry:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                2015-01-21
+                                2015-01-15
                               </div>
                             </div>
 
@@ -226,7 +228,7 @@ export default function Index() {
                                 Doses:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                0,1-0,3 g 2 times/day (external application)
+                                0.5-0.8 g 1time/day (external using)
                               </div>
                             </div>
 
@@ -235,18 +237,8 @@ export default function Index() {
                                 Therapy schedule:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Pathelen® wound care treatment – 2 times/day up
-                                to 2015-01-21
-                              </div>
-                            </div>
-
-                            <div className="mt-[36px] flex flex-row">
-                              <div className="flex w-[210px] text-left font-medium">
-                                Additional measures:
-                              </div>
-                              <div className="flex w-[100%] text-left">
-                                Mechanical debridement – cutting the necrotic
-                                tissues
+                                Pathelen® wound care treatment – 1time/day up to
+                                2015-01-15
                               </div>
                             </div>
 
@@ -256,16 +248,21 @@ export default function Index() {
 
                             <div className="mt-[36px] flex flex-row">
                               <p>
-                                Narrative: Complaints on the wound on the front
-                                surface of the lower part of the left leg which
-                                patient has had for the last 5 months. The
-                                patient noted constant pain in the wound.
+                                Narrative: The patient was admitted with
+                                complaints of pain in his left leg, redness and
+                                itching on the internal surface of the left
+                                tibia and femur. raise fever up to 37.5 °C. Ps –
+                                110/min. AP – 140/90 mm Hg. The disease began 7
+                                days ago (WBCs): leukocytes – 10.0×109/L.
+                                Leukocytes Formula: banded neutrophils – 8%,
+                                segmented neutrophils – 81%, lymphocytes– 4%.
+                                2015-04-23
                                 <br />
                                 <br />
-                                2014-12-25 – Surgery: Debridement.
+                                Surgery: opening and drainage of abscess tibia,
+                                opening and drainage thigh phlegmons..
                                 <br />
-                                S. Saprophyticuі, 104 CFU/g, sensitive to
-                                Cefepime, Tygacil, Linezolid
+                                S. aureus, 12x1016 CFU/g,
                               </p>
                             </div>
 
@@ -274,8 +271,8 @@ export default function Index() {
                                 Additional comments:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                2014-12-29: Pain in the wound completely
-                                disappeared without any anesthetic drugs.
+                                2015-04-27: WBC – 8.5×10 9/L. <br />
+                                2015-04-29: S. aureus, 107 CFU/g,
                               </div>
                             </div>
 
@@ -284,19 +281,9 @@ export default function Index() {
                                 Brief treatment summary:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                2014-12-26 Pain in the wound decreased without
-                                anesthetic drugs
-                                <br />
-                                <br />
-                                2015-01-06: The wound is clean, swelling on the
-                                skin around the wound is absent. The wound is
-                                reduced in size. Active granulation and partial
-                                epithelialization of the wound
-                                <br />
-                                <br />
-                                2015-01-21: The wound is clean, active
-                                epithelialization of the wound. Wound has
-                                significantly reduced in size. Size 1,4 x 1 cm.
+                                2015-05-07 Necrosis missing in both wounds.
+                                Wound pink pure visible areas of granulation.
+                                Wounds blood contact
                               </div>
                             </div>
 
@@ -311,14 +298,11 @@ export default function Index() {
                                 Condition:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Complaints on the wound on the front surface of
-                                the lower part of the left leg which patient has
-                                had for the last 5 months. The patient noted
-                                constant pain in the wound.
-                                <br />
-                                <br />
-                                The temperature of 36,6 C.Ps – 98/min. AP –
-                                130/80 mm Hg. The disease began 5 months ago
+                                The patient was admitted with complaints of pain
+                                in his left leg, redness and itching on the
+                                internal surface of the left tibia and femur.
+                                raise fever up to 37.5 °C. Ps – 110/min. AP –
+                                140/90 mm Hg. The disease began 7 days ago.
                               </div>
                             </div>
 
@@ -327,12 +311,14 @@ export default function Index() {
                                 Status localis:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                On the front surface of the left tibia in the
-                                middle localized chronic wound. The skin around
-                                the wound hyperemic, slight swelling edges of
-                                the wound, the wound was dry with black
-                                necrosis, strong pain. The size of the wound in
-                                the beginning 2 x 2 cm.
+                                The inner surface of the left lower leg abscess,
+                                with maceration of skin over it, when it is
+                                painful to palpation and surface pus. Swollen
+                                left thigh, on the inside surface of the
+                                maceration of the skin, there are places and
+                                areas of necrosis of the skin, palpable under
+                                the skin seen floating, pressing out of the skin
+                                follows pus.
                               </div>
                             </div>
 
@@ -341,10 +327,17 @@ export default function Index() {
                                 Blood tests:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                White blood cells (WBCs): leukocytes –
-                                8.0×109/L. Leukocytes Formula: banded
-                                neutrophils – 6%, segmented neutrophils – 61%,
-                                lymphocytes– 33%.
+                                (RBC) Hemoglobin: Hgb-104 g/l, Erythrocytes:
+                                Er-3,0×1012/L White blood cells (WBCs):
+                                leukocytes – 10.0×109/L. Leukocytes Formula:
+                                banded neutrophils – 8%, segmented neutrophils –
+                                81%, lymphocytes– 4%. Fever up to 39.5 °C,
+                                leukocytosis – 20.3×109/L , hemoglobin: Hb-80
+                                g/l, and frequency of pulse – 110/min showed
+                                that the patient had Systemic Inflammatory
+                                Response Syndrome (SIRS). Based on existence of
+                                purulent inflammation and SIRS, the Patient was
+                                diagnosed – Sepsis.
                               </div>
                             </div>
 
@@ -353,10 +346,18 @@ export default function Index() {
                                 Surgery:
                               </div>
                               <div className="flex w-[100%] text-left">
-                                Was performed mechanical cleaning of the wounds
-                                – removal of necrosis, under local anesthetic
-                                lidocaine 0.5%, and 5.0 ml. The wound was
-                                bandaged with Pathelen®.
+                                On the day 1 was made surgery – opening and
+                                drainage of abscess tibia, opening and drainage
+                                thigh phlegmons. From hip cavities phlegmons
+                                allocated to 500ml of pus. To cut the fascia
+                                removed necrotic tissue. Taken wound seeding
+                                content on bacteriological examination. The
+                                wound washed with a solution of 10% Betadine and
+                                3% hydrogen peroxide solution. Wound was worked
+                                out by Pathelen® 3-5 mm layer and covered with
+                                aseptic bandage The patient is assigned
+                                antibiotic Amikacin 500 mg i.m. 2
+                                times/dayCiprofloxacin1000 mg i.v. 3 times/day
                               </div>
                             </div>
 
@@ -397,7 +398,6 @@ export default function Index() {
                               <section className="bg-slate-light py-12 px-6 font-dm-sans md:py-[90px] md:px-0">
                                 <div className="m-auto max-w-default">
                                   <div className="m-auto max-w-[558px]">
-                                    <img src={CsOneImg} alt="Pathelen Case Study" />
                                     <h2>Treatment Course:</h2>
                                   </div>
                                   <div className="mx-3 mt-[60px] md:mx-auto">
@@ -423,10 +423,12 @@ export default function Index() {
                                         />
                                         <div className="mt-10">
                                           <h4 className="text-xl font-medium text-slate-headline">
-                                            Day 2
+                                            Pus allocated from the wound
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Next day after the debridement and start of treatment by Pathelen®. Pain in the wound decreased without anesthetic drugs.
+                                            Wound was worked out by Pathelen®
+                                            3-5 mm layer and covered with
+                                            aseptic bandage.
                                           </p>
                                         </div>
                                       </div>
@@ -437,10 +439,12 @@ export default function Index() {
                                         />
                                         <div className="mt-10">
                                           <h4 className="text-xl font-medium text-slate-headline">
-                                            Day 5
+                                            Pus allocated from the wound
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is clean without necrosis, slight swelling is presented on the wound edges. Pain has completely disappeared.
+                                            Wound was drainage and worked out by
+                                            Pathelen® 3-5 mm layer and covered
+                                            with aseptic bandage
                                           </p>
                                         </div>
                                       </div>
@@ -462,13 +466,15 @@ export default function Index() {
                                         />
                                         <div className="mt-10">
                                           <h4 className="text-xl font-medium text-slate-headline">
-                                            Day 13
+                                            Day 5
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is clean, swelling on the skin around the wound is
-                                            absent. The wound has reduced in size.
-                                            Active granulation and partial epithelialization of the wound.
-                                            (Wound 2).
+                                            With wounds will not oozing pus.
+                                            Swelling of the skin and flushing of
+                                            the skin around the wound less.
+                                            Available necrosis in the wound on
+                                            the thigh. The wound in the leg
+                                            without necrosis cleared.
                                           </p>
                                         </div>
                                       </div>
@@ -479,10 +485,13 @@ export default function Index() {
                                         />
                                         <div className="mt-10">
                                           <h4 className="text-xl font-medium text-slate-headline">
-                                            Day 20
+                                            Day 15
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            Actively epithelialized wound.</p>
+                                            Necrosis missing in the wound. Wound
+                                            pink pure visible areas of
+                                            granulation. Wounds blood contact
+                                          </p>
                                         </div>
                                       </div>
                                       <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
@@ -492,10 +501,15 @@ export default function Index() {
                                         />
                                         <div className="mt-10">
                                           <h4 className="text-xl font-medium text-slate-headline">
-                                            Day 28
+                                            Day 23
                                           </h4>
                                           <p className="mt-6 text-desktop-paragraph text-slate-body">
-                                            The wound is clean, active epithelialization of the wound. Wound has significantly reduced in size. (Wound 3)</p>
+                                            Active wound granulated active
+                                            epithelialization of the wound, the
+                                            wound is reduced in size, there are
+                                            areas completely healed. PWCT was
+                                            canceled.
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
@@ -507,20 +521,66 @@ export default function Index() {
                             <div className="mt-[36px] flex flex-row">
                               <section className="bg-slate-light py-12 px-6 font-dm-sans md:py-[90px] md:px-0">
                                 <div className="m-auto max-w-default">
-                                    <img src={CsOne02Img} alt="Pathelen Case Study" />
+                                  <div className="mx-3 mt-[60px] md:mx-auto">
+                                    <div className="md:flex">
+                                      <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
+                                        <img
+                                          src={CsOneWoundImg07}
+                                          alt="Sample Image"
+                                        />
+                                        <div className="mt-10">
+                                          <h4 className="text-xl font-medium text-slate-headline">
+                                            &nbsp;
+                                          </h4>
+                                          <p className="mt-6 text-desktop-paragraph text-slate-body">
+                                            With wounds will not oozing pus.
+                                            Swelling of the skin and flushing of
+                                            the skin around the wound less.
+                                            Available necrosis in the wound on
+                                            the thigh. The wound in the leg
+                                            without necrosis cleared.
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
+                                        <img
+                                          src={CsOneWoundImg08}
+                                          alt="Sample Image"
+                                        />
+                                        <div className="mt-10">
+                                          <h4 className="text-xl font-medium text-slate-headline">
+                                            &nbsp;
+                                          </h4>
+                                          <p className="mt-6 text-desktop-paragraph text-slate-body">
+                                            Necrosis missing in both wounds.
+                                            Wound pink pure visible areas of
+                                            granulation. Wounds blood contact.
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div className="mt-10 md:ml-[30px] md:mt-0 md:w-1/3">
+                                        <img
+                                          src={CsOneWoundImg09}
+                                          alt="Sample Image"
+                                        />
+                                        <div className="mt-10">
+                                          <h4 className="text-xl font-medium text-slate-headline">
+                                            &nbsp;
+                                          </h4>
+                                          <p className="mt-6 text-desktop-paragraph text-slate-body">
+                                            Active wound granulated active
+                                            epithelialization of the wound, the
+                                            wound is reduced in size, there are
+                                            areas completely healed. PWCT was
+                                            canceled.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
                                 </div>
                               </section>
                             </div>
-
-                            <div className="mt-[36px] flex flex-row">
-                              <section className="bg-slate-light py-12 px-6 font-dm-sans md:py-[90px] md:px-0">
-                                <div className="m-auto max-w-default">
-                                  <img src={CsOne02Img} alt="Pathelen Case Study" />
-                                </div>
-                              </section>
-                            </div>
-
-
                           </Tab.Panel>
                         </Tab.Panels>
                       </Tab.Group>
